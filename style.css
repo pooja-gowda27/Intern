@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+.centered {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  background: white;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.login-box button {
+  background: #007BFF;
+  color: white;
+  padding: 0.6em 2em;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+header {
+  background: #007BFF;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.intern-info {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.intern-info img {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #007BFF;
+}
+.counter {
+  font-size: 2em;
+  color: #28a745;
+  font-weight: bold;
+}
+.rewards ul {
+  list-style: none;
+  padding-left: 0;
+}
+.rewards li {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+}
+.bronze { color: #cd7f32; }
+.silver { color: #c0c0c0; }
+.gold { color: #ffd700; }
